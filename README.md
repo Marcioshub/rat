@@ -1,6 +1,6 @@
 # Remote Administration Tool (RAT)
 
-Rat written in python, for eductional purposes only.
+Rat written in python, for educational purposes only.
 
 Functions:
 
