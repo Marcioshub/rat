@@ -1,4 +1,4 @@
-# Remote Administration Tool (RAT)
+# Remote Access Tool (RAT)
 
 Rat written in python, for educational purposes only.
 
