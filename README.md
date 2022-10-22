@@ -1,4 +1,4 @@
-# Remote Access Tool (RAT)
+# Remote Access Trojan (RAT)
 
 Rat written in python, for educational purposes only.
 
